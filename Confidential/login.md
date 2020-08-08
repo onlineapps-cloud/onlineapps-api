@@ -5,10 +5,7 @@
                                [username    -- username
                                 password    -- plaintext password or
                                 hash        -- password hash (described later)
-                                computer    -- name of PC
-                                country     -- full country name 
-                                countryCode -- 2 letter code (MD)
-                                city        -- city]
+                                computer    -- name of PC]
 * Response:
     * 200: Token
     * 401: **AUTHENTICATION_FAILED**
@@ -20,9 +17,6 @@
     --data username=first \
     --data password=WrongPass \
     --data computer=mypc \
-    --data country=Moldova \
-    --data countryCode=MD \
-    --data city=Chisinau
   ```
 OR WITH HASH
   ```  
@@ -32,6 +26,4 @@ OR WITH HASH
     --data username=first \
     --data hash=55e5905c94271a1064b3ffc065387c917af21b8db9f41a63c4a78a49abc758f0e63369d8ab91b40419ba2c105d65f309313ac30812961dedca2a7a24f2505582 \
     --data computer=mypc \
-    --data country=Moldova \
-    --data countryCode=MD \
-    --data city=Chisinau
+
