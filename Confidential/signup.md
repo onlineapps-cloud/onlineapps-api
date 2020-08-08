@@ -1,8 +1,9 @@
-### POST /user/<username>  
+### POST /user/
 * Description: Create a new individual user
 * Body: x-www-form-urlencoded: 
   ```
-                               [password -- plaintext password 
+                               [username -- username
+                                password -- plaintext password 
                                 phone    -- optional, can have +,(),- 
                                 email    -- unique email]
 * Response:
@@ -17,8 +18,9 @@
 * Example cURL:
   ```
     curl --request POST \
-    --url http://requests.onlineapps.cloud:1880/user/third \
+    --url http://requests.onlineapps.cloud:1880/user/ \
     --header 'content-type: application/x-www-form-urlencoded' \
+    --data username=Third \    
     --data password=TestPass123 \
     --data email=asss@asss.as \
     --data 'phone=+1111'
