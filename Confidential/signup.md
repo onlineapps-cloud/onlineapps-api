@@ -18,7 +18,7 @@
 * Example cURL:
   ```
     curl --request POST \
-    --url http://requests.onlineapps.cloud:1880/user/ \
+    --url https://requests.onlineapps.cloud/user/ \
     --header 'content-type: application/x-www-form-urlencoded' \
     --data username=Third \    
     --data password=TestPass123 \

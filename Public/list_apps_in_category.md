@@ -13,4 +13,4 @@
 * Example cURL:
   ```
     curl --request GET \
-    --url http://requests.onlineapps.cloud:1880/app/category/2D%20Editor
+    --url https://requests.onlineapps.cloud/app/category/2D%20Editor

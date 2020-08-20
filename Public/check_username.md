@@ -6,4 +6,4 @@
 * Example cURL:
   ```
     curl --request GET \
-    --url http://requests.onlineapps.cloud:1880/user/first
+    --url https://requests.onlineapps.cloud/user/first

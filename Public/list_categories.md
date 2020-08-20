@@ -5,4 +5,4 @@
 * Example cURL:
   ```
     curl --request GET \
-    --url http://requests.onlineapps.cloud:1880/category
+    --url https://requests.onlineapps.cloud/category
