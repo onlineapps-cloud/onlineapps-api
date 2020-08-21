@@ -11,7 +11,7 @@
     * 401: **IP_CHANGE**
     * 403: **ALREADY_LINKED**
     * 403: **INSUFFICIENT_FUNDS**
-    * (404: NOT_FOUND)
+    * 404: **NOT_FOUND**
 * Example cURL:
   ```
     curl --request POST \
