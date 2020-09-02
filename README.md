@@ -7,7 +7,7 @@ All requests relative to https://requests.onlineapps.cloud
 - When `{{}}` is used, it is a placeholder (Most often for uid/token)
 
 ## Table of contents
--  Cofidential
+- Cofidential
   - App
     - [List linked apps](Confidential/App/list_linked_apps.md)
     - [List linked apps for RDP](Confidential/App/rdp_apps.md)
@@ -43,7 +43,7 @@ All requests relative to https://requests.onlineapps.cloud
     - [Get credit](Confidential/Utils/get_credit.md)
     - [Get icon list](Confidential/Utils/icon_list.md)
     - [Get login history](Confidential/Utils/login_history.md)
--  Public
+- Public
   - Apps
     - [Get all apps](Public/Apps/list_all_apps.md)
     - [Get all apps by category](Public/Apps/list_apps_in_all_categories.md)
