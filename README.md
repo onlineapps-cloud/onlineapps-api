@@ -1,6 +1,6 @@
 # API Documentation for OnlineApps
 
-All requests relative to https://requests.onlineapps.cloud
+All requests relative to https://requests.onlineapps.cloud/api
 
 - Post request body is usually `application/x-www-formurlencoded`
 - Auth token is passed as `Authorization: "Bearer {{token}}"` header, see [Confidential/login.md](Confidential/Login/login.md) to get token
@@ -52,5 +52,5 @@ All requests relative to https://requests.onlineapps.cloud
     - [Get all categories](Public/Apps/list_categories.md)
     - [Get subcategories of a category](Public/Apps/list_subcategories.md)
   - User
-    - [(WIP) Does user exist]()
+    - [Does user exist]()
     - [Get user's avatar](Public/User/get_avatar.md)
