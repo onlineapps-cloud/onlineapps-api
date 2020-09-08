@@ -13,13 +13,15 @@
                                 (unbound variables MAY be excluded)
 
 - Response:
-    - 200: Bearer token (self-contained jwt, with login IP and **UID*-contained)
-    - 401: **AUTHENTICATION_FAILED**
-    - 401: **BINDING_FAILED**
+  - 200: Bearer token (self-contained jwt, with login IP and **UID*-contained)
+  - 401: **AUTHENTICATION_FAILED**
+  - 401: **BINDING_FAILED**
+  - 401: **OTP_DISABLED**
+  - 401: **OTP_FAILED**
 - Example cURL:
   ```
     curl --request POST \
-    --url https://requests.onlineapps.cloud/login/ \
+    --url https://requests.onlineapps.cloud/api/login/ \
     --header 'content-type: application/x-www-form-urlencoded' \
     --data username=first \
     --data hash={{hash}} \
@@ -28,7 +30,7 @@
 OR WITH BINDINGS
   ```  
     curl --request POST \
-    --url https://requests.onlineapps.cloud/login/ \
+    --url https://requests.onlineapps.cloud/api/login/ \
     --header 'content-type: application/x-www-form-urlencoded' \
     --data username=first \
     --data hash={{hash}} \

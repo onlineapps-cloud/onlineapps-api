@@ -7,4 +7,4 @@
 - Example cURL:
   ```
   curl --request GET \
-  --url https://requests.onlineapps.cloud/avatar/2/m
+  --url https://requests.onlineapps.cloud/api/avatar/2/m

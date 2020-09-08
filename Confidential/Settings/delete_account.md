@@ -11,7 +11,7 @@
 - Example cURL:
   ```
 curl --request DELETE \
-  --url https://requests.onlineapps.cloud/user/2 \
+  --url https://requests.onlineapps.cloud/api/user/2 \
   --header 'content-type: application/x-www-form-urlencoded' \
   --header 'authorization: Bearer {{token}}' \
   --data otp=368350

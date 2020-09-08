@@ -1,5 +1,5 @@
-### GET /app/user/{{uid}} 
-- Description: List all apps purchased by a user
+### GET /server/app/{{uid}} 
+- Description: List all apps created by a user
 - Auth: Bearer key
 - Response:
     - 200:   
@@ -9,11 +9,12 @@
              url        : 'URL to icon',
              price      : 'price in USD',
              categories : [{name:"category name", subcategory:"subcategory name"}, ...],
-             group      : 'Freeware/Shareware'}, ...]
+             group      : 'Freeware/Shareware',
+             servers    : ["ip", "ip", ...]}, ...]
     - 401: **INVALID_TOKEN**
     - 401: **IP_CHANGE**
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/api/app/user/2 \
+    --url https://requests.onlineapps.cloud/api/server/app/2 \
     --header 'authorization: Bearer {{token}}'

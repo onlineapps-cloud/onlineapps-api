@@ -1,4 +1,4 @@
-### GET /app/category/<category_or_subcategory>
+### GET /app/category/{{category_or_subcategory}}
 - Description: List all apps in a category, or a subcategory
 - Response:
     - 200: 
@@ -13,4 +13,4 @@
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/app/category/2D%20Editor
+    --url https://requests.onlineapps.cloud/api/app/category/2D%20Editor

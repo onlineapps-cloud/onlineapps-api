@@ -22,7 +22,7 @@
 - Example cURL:
   ```
     curl --request POST \
-    --url https://requests.onlineapps.cloud/bind/2 \
+    --url https://requests.onlineapps.cloud/api/bind/2 \
     --header 'authorization: Bearer {{token}}' \
     --header 'content-type: application/x-www-form-urlencoded' \
     --data computer=mypc \

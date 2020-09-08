@@ -5,8 +5,8 @@
     - 200: **EXISTING_EMAIL**
     - 200: **AVAILABLE_USERNAME**
     - 200: **AVAILABLE_EMAIL**
-    - 404: **NOT_VALID**
+    - 400: **NOT_VALID**
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/user/first
+    --url https://requests.onlineapps.cloud/api/user/first

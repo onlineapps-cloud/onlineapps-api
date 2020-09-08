@@ -6,6 +6,7 @@
     - 200: **SUCCESS**
     - 401: **INVALID_TOKEN**
     - 401: **IP_CHANGE**
+    - 400: **INVALID_ID**
 - Example cURL:
   ```
     curl --request DELETE \

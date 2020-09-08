@@ -8,6 +8,6 @@
 - Example cURL: 
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/xml/menu/2 \
+    --url https://requests.onlineapps.cloud/api/xml/menu/2 \
     --header 'authorization: Bearer {{token}}'
   

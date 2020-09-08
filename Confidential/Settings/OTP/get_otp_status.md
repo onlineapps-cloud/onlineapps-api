@@ -1,5 +1,5 @@
 ### GET /otp/status/{{uid}} 
-- Description: Return link for otp auth setup
+- Description: Return OTP status
 - Auth: Bearer key
 - Response:
     - 200: {enabled: 0/1}
@@ -8,5 +8,5 @@
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/otp/status/3 \
+    --url https://requests.onlineapps.cloud/api/otp/status/3 \
     --header 'authorization: Bearer {{token}}'

@@ -11,19 +11,20 @@
 
 - Response:
     - 200: **SUCCESS**
-    - 401: **AUTHENTICATION_FAILED**
+    - 401: **INVALID_TOKEN**
+    - 401: **IP_CHANGE**
     - 401: **OTP_FAILED**
-    - 422: **MALFORMED_EMAIL**
+    - 400: **MALFORMED_EMAIL**
     - 422: **EXISTING_EMAIL**
-    - 422: **MALFORMED_PASSWORD**
-    - 422: **MALFORMED_PHONE**
+    - 400: **MALFORMED_PASSWORD**
+    - 400: **MALFORMED_PHONE**
 - Example cURL:
   ```
   curl --request PATCH \
-  --url https://requests.onlineapps.cloud/user/2 \
+  --url https://requests.onlineapps.cloud/api/user/2 \
   --header 'content-type: application/x-www-form-urlencoded' \
   --header 'authorization: Bearer {{token}}' \
-  --data newpassword=Newp4ss \
+  --data password=Newp4ss \
   --data 'phone=+9999' \
   --data email=aaa@ddd.vvvs \
   --data otp=368350 \

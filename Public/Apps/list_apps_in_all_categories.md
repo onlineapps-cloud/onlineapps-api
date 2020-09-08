@@ -12,4 +12,4 @@
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/app/category/
+    --url https://requests.onlineapps.cloud/api/app/category/

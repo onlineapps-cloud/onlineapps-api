@@ -8,5 +8,5 @@
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/otp/3 \
+    --url https://requests.onlineapps.cloud/api/otp/3 \
     --header 'authorization: Bearer {{token}}'

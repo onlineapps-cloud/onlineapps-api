@@ -15,5 +15,5 @@
 - Example cURL:
   ```
     curl --request GET \
-    --url https://requests.onlineapps.cloud/history/3 \
+    --url https://requests.onlineapps.cloud/api/history/3 \
     --header 'authorization: Bearer {{token}}'

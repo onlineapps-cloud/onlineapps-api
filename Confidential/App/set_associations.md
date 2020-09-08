@@ -4,8 +4,10 @@
 - Body: x-www-form-urlencoded: `[associations -- {"extension":"app id", "extension":"app id", ...}]`
 - Response:
     - 200: **SUCCESS**
+    - 400: **MALFORMED_JSON**
     - 401: **INVALID_TOKEN**
     - 401: **IP_CHANGE**
+    - 404: **NOT_LINKED**
     
 - Example cURL:
   ```

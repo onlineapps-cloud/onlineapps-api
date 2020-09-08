@@ -1,5 +1,5 @@
 ### PATCH /otp/{{uid}}
-- Description: Unlink an app
+- Description: Generate new otp secret
 - Auth: Bearer key
 - Response:
     - 200: **SUCCESS**
